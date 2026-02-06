@@ -1,0 +1,86 @@
+body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      background: linear-gradient(135deg, #e0f7fa, #b3e5fc); /* light blue gradient */
+      font-family: 'Arial', sans-serif;
+      flex-direction: column;
+      color: #0277bd; /* deep blue text for contrast */
+    }
+    
+    .container {
+      text-align: center;
+      background: rgba(255, 255, 255, 0.7);
+      padding: 40px;
+      border-radius: 20px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    }
+    
+    h1 {
+      font-size: 3em;
+      color: #01579b; /* darker blue for title */
+      margin-bottom: 10px;
+    }
+    
+    .subtitle {
+      font-size: 1.4em;
+      color: #0288d1;
+      margin-bottom: 30px;
+    }
+    
+    .buttons {
+      margin-top: 20px;
+    }
+    
+    .yes-button {
+      font-size: 1.8em;
+      padding: 15px 35px;
+      margin: 0 15px;
+      background-color: #4caf50;
+      color: white;
+      border: none;
+      border-radius: 50px;
+      cursor: pointer;
+      box-shadow: 0 5px 15px rgba(76, 175, 80, 0.4);
+      transition: transform 0.2s;
+    }
+    
+    .yes-button:hover {
+      transform: scale(1.1);
+    }
+    
+    .no-button {
+      font-size: 1.8em;
+      padding: 15px 35px;
+      margin: 0 15px;
+      background-color: #fd6565; /* light blue para di masyadong red/aggressive */
+      color: #ffffff;
+      border: 2px solid #fd6565;
+      border-radius: 50px;
+      cursor: pointer;
+      transition: all 0.3s;
+    }
+    
+    .no-button:hover {
+      background-color: #fd6565;
+      transform: translateY(-5px);
+    }
+    
+    .cat-gif {
+      margin-top: 30px;
+      max-width: 300px;
+      border-radius: 20px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    }
+    
+    .heart {
+      font-size: 3em;
+      animation: beat 1.2s infinite;
+    }
+    
+    @keyframes beat {
+      0%, 100% { transform: scale(1); }
+      50% { transform: scale(1.2); }
+    }
